@@ -1,0 +1,284 @@
+body {
+    background-color: black;
+}
+
+
+.login {
+    position: relative;
+    height: 100vh;
+    background: url('https://flexsub.shop/content/images/size/w1200/2021/11/1_5lyavS59mazOFnb55Z6znQ.png');
+}
+
+
+.login__logo {
+    width: 100px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.login_button {
+
+    background-color: red;
+    padding: 10px 20px;
+    color: aliceblue;
+    border: 0px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.login_body {
+
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    left: 0px;
+    right: 0px;
+
+}
+
+
+.login_body h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+
+.login_body h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 400;
+
+}
+
+.login_body h3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 400;
+
+}
+
+
+.login_body.login_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login_body input {
+    width: 300px;
+    height: 40px;
+    padding: 0px 15px;
+
+}
+
+.login_body button {
+    height: 45px;
+    border: 0px;
+    padding: 0px 10px;
+    background-color: red;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.login_gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgb(0 0 0 0.4);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8)0, rgba(0, 0, 0, 0)60%, rgba(0, 0, 0, 0)100%);
+
+}
+
+.SignUpScreen {
+    max-width: 300px;
+    padding: 70px;
+    background-color: rgba(19, 19, 19, 0.85);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.SignUpScreen form {
+    display: grid;
+    flex-direction: column;
+}
+
+.SignUpScreen form input {
+    outline: 0;
+    height: 40px;
+    border: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+
+}
+
+.SignUpScreen form button {
+    padding: 16px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    background-color: #e50914;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.SignUpScreen form h4 {
+    color: darkgray;
+}
+
+.SignUpScreen form h4 span {
+    color: rgb(252, 254, 254);
+    text-decoration: underline;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in 0s;
+    background-color: black;
+
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.logo {
+    width: 80px;
+
+}
+
+.nav-avatar {
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+
+.banner {
+    background: url('https://pyxis.nymag.com/v1/imgs/472/022/717a089b39b7837738e5dceef4d10f497e-06-altered-carbon-background.1x.rsocial.w1200.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    object-fit: contain;
+    color: #fff;
+
+
+}
+
+.banner__content {
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 200px;
+
+}
+
+.banner_description {
+    width: 500px;
+    line-height: 1.3;
+    padding-top: 20px;
+    font-size: 16px;
+
+
+}
+
+
+.banner_buttons button {
+    cursor: pointer;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #e50914;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.banner_buttons button:hover {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.banner-fade {
+    background-image: linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.61));
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+
+}
+
+
+.row {
+    color: rgb(251, 248, 245);
+    margin-left: 20px;
+
+}
+
+.row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_posters::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+.rowposter {
+    max-height: 100px;
+    object-fit: contain;
+    margin-left: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 450ms;
+
+
+
+}
+
+.rowposter:hover {
+    transform: scale(1.08);
+}
+
+.largeImage {
+    max-height: 250px;
+
+}
